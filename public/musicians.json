@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "DJ Neurogenic",
+    "img": "https://i.ibb.co/3Bg8Rm5/featured-1.jpg",
+    "price": 29.99,
+    "description": "DJ Neurogenic is a well-known electronic music artist, and this product reflects their unique style. It is a high-quality item for music enthusiasts."
+  },
+  {
+    "id": 2,
+    "name": "DJ Phenomenic",
+    "img": "https://i.ibb.co/d6vMd8D/featured-2.jpg",
+    "price": 19.99,
+    "description": "DJ Phenomenic is known for creating energetic and dynamic music. This product, inspired by their music, is an affordable option for your needs. Grab it today!"
+  },
+  {
+    "id": 3,
+    "name": "Emarcid",
+    "img": "https://i.ibb.co/26HXf6q/featured-3.jpg",
+    "price": 39.99,
+    "description": "Emarcid is a band with a unique sound and a strong fan following. This product, inspired by their music, is a premium item with advanced features. Limited stock available."
+  },
+  {
+    "id": 4,
+    "name": "Stylewort",
+    "img": "https://i.ibb.co/qdmM5Q1/featured-4.jpg",
+    "price": 49.99,
+    "description": "Stylewort is a band known for their innovative style. Product D is the latest addition to their lineup and reflects their commitment to pushing boundaries. Don't miss out!"
+  },
+  {
+    "id": 5,
+    "name": "Nemesis",
+    "img": "https://i.ibb.co/ww5Bc8R/featured-5.jpg",
+    "price": 59.99,
+    "description": "Nemesis is a band that brings a sense of urgency to their music. Product E, inspired by their music, comes with a special discount for a limited time."
+  },
+  {
+    "id": 6,
+    "name": "Warfaze",
+    "img": "https://i.ibb.co/WfNnTKW/featured-6.jpg",
+    "price": 69.99,
+    "description": "Warfaze is a legendary band known for their powerful performances. Product F, inspired by their music, is perfect for those who demand the best. Order now!"
+  }
+]
