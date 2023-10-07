@@ -6,7 +6,7 @@ import Slider from "./Slider";
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
+            {/* <Navbar></Navbar> */}
             <Slider></Slider>
             <Services></Services>
             <Footer></Footer>
