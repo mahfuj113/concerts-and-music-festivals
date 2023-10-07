@@ -10,7 +10,6 @@ const ServiceDetails = () => {
         .then(res => res.json())
         .then(data => setDetail(data))
     },[id])
-    console.log(detail);
     return (
         <div className="card card-compact bg-base-100 shadow-xl">
             <figure className=''><img className='' src={img} alt="Shoes" /></figure>
