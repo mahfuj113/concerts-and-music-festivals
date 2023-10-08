@@ -4,41 +4,65 @@
     "name": "DJ Neurogenic",
     "img": "https://i.ibb.co/3Bg8Rm5/featured-1.jpg",
     "price": 250.00,
-    "description": "Experience the mesmerizing sounds of DJ Neurogenic with this exceptional product. DJ Neurogenic, a renowned electronic music artist, has created a unique musical journey, and this product is your gateway to that world. With its sleek design and user-friendly features, it's perfect for both aspiring DJs and music enthusiasts. Dive deep into the hypnotic beats and melodies that DJ Neurogenic is famous for. This high-quality item is crafted to ensure every note resonates with precision. Elevate your music experience and join the Neurogenic movement today! But that's not all—when you purchase DJ Neurogenic's product, you'll also receive exclusive access to a curated playlist of DJ Neurogenic's top tracks. Immerse yourself in the complete DJ Neurogenic experience. Don't miss out on this opportunity to be part of the Neurogenic community!"
+    "description": "Experience the mesmerizing sounds of DJ Neurogenic with this exceptional product. DJ Neurogenic, a renowned electronic music artist, has created a unique musical journey, and this product is your gateway to that world. With its sleek design and user-friendly features, it's perfect for both aspiring DJs and music enthusiasts. Dive deep into the hypnotic beats and melodies that DJ Neurogenic is famous for. This high-quality item is crafted to ensure every note resonates with precision. Elevate your music experience and join the Neurogenic movement today! But that's not all—when you purchase DJ Neurogenic's product, you'll also receive exclusive access to a curated playlist of DJ Neurogenic's top tracks. Immerse yourself in the complete DJ Neurogenic experience. Don't miss out on this opportunity to be part of the Neurogenic community!",
+    "event_category": "Electronic Music Event",
+    "organizer": "Neurogenic Productions",
+    "phone": "+1-123-456-7890",
+    "email": "info@neurogenicproductions.com"
   },
   {
     "id": 2,
     "name": "DJ Phenomenic",
     "img": "https://i.ibb.co/d6vMd8D/featured-2.jpg",
     "price": 220.00,
-    "description": "Get ready to unleash the Phenomenic energy with this affordable yet powerful product. DJ Phenomenic is known for creating electrifying music that keeps the energy levels soaring, and now you can be a part of that experience. Whether you're a professional DJ or just love to dance, this product will infuse your music with Phenomenic vibes. Dive into DJ Phenomenic's world, where every beat is an invitation to dance. Don't miss out on this opportunity to add an electrifying touch to your music collection. Experience the Phenomenic revolution today! As a bonus, you'll receive an exclusive DJ Phenomenic sticker with your purchase, proudly displaying your affiliation with the Phenomenic movement."
+    "description": "Get ready to unleash the Phenomenic energy with this affordable yet powerful product. DJ Phenomenic is known for creating electrifying music that keeps the energy levels soaring, and now you can be a part of that experience. Whether you're a professional DJ or just love to dance, this product will infuse your music with Phenomenic vibes. Dive into DJ Phenomenic's world, where every beat is an invitation to dance. Don't miss out on this opportunity to add an electrifying touch to your music collection. Experience the Phenomenic revolution today! As a bonus, you'll receive an exclusive DJ Phenomenic sticker with your purchase, proudly displaying your affiliation with the Phenomenic movement.",
+    "event_category": "Dance Party",
+    "organizer": "Phenomenic Events",
+    "phone": "+1-987-654-3210",
+    "email": "info@phenomenicevents.com"
   },
   {
     "id": 3,
     "name": "Emarcid",
     "img": "https://i.ibb.co/26HXf6q/featured-3.jpg",
     "price": 200.00,
-    "description": "Elevate your music experience to new heights with this premium product inspired by the unique sound of Emarcid. Emarcid, a band with a strong fan following, is known for its complex and immersive music. This product is designed for the true music aficionado, offering advanced features and unparalleled sound quality. Limited stock is available, so seize this opportunity to own a piece of Emarcid's musical legacy. Join the Emarcid revolution and experience music like never before! Plus, every purchase of an Emarcid product includes a downloadable Emarcid concert poster as a token of appreciation, allowing you to decorate your space with the essence of Emarcid's music."
+    "description": "Elevate your music experience to new heights with this premium product inspired by the unique sound of Emarcid. Emarcid, a band with a strong fan following, is known for its complex and immersive music. This product is designed for the true music aficionado, offering advanced features and unparalleled sound quality. Limited stock is available, so seize this opportunity to own a piece of Emarcid's musical legacy. Join the Emarcid revolution and experience music like never before! Plus, every purchase of an Emarcid product includes a downloadable Emarcid concert poster as a token of appreciation, allowing you to decorate your space with the essence of Emarcid's music.",
+    "event_category": "Live Music Concert",
+    "organizer": "Emarcid Productions",
+    "phone": "+1-456-789-0123",
+    "email": "info@emarcidproductions.com"
   },
   {
     "id": 4,
     "name": "Stylewort",
     "img": "https://i.ibb.co/qdmM5Q1/featured-4.jpg",
     "price": 300.00,
-    "description": "Unleash your creativity and redefine your style with Stylewort's latest innovation, Product D. Stylewort, known for its avant-garde musical style, pushes the boundaries of music technology with this product. It's not just a tool; it's an instrument of artistic expression. Whether you're a budding musician or an experienced producer, Product D will inspire you to push your creative boundaries. Elevate your music to new heights and redefine your style with Stylewort. Join the revolution now! And that's not all—every purchase of Product D includes a free online workshop on music production techniques conducted by Stylewort's lead producer, empowering you to master the art of music creation."
+    "description": "Unleash your creativity and redefine your style with Stylewort's latest innovation, Product D. Stylewort, known for its avant-garde musical style, pushes the boundaries of music technology with this product. It's not just a tool; it's an instrument of artistic expression. Whether you're a budding musician or an experienced producer, Product D will inspire you to push your creative boundaries. Elevate your music to new heights and redefine your style with Stylewort. Join the revolution now! And that's not all—every purchase of Product D includes a free online workshop on music production techniques conducted by Stylewort's lead producer, empowering you to master the art of music creation.",
+    "event_category": "Music Technology Workshop",
+    "organizer": "Stylewort Studios",
+    "phone": "+1-234-567-8901",
+    "email": "info@stylewortstudios.com"
   },
   {
     "id": 5,
     "name": "Nemesis",
     "img": "https://i.ibb.co/ww5Bc8R/featured-5.jpg",
     "price": 250.00,
-    "description": "Feel the adrenaline rush of Nemesis' music with Product E, designed to capture the urgency and excitement of their live performances. Nemesis, a band that knows how to bring the heat, inspires this product. For a limited time, we're offering a special discount on Product E. Don't miss your chance to infuse your music with the same intensity that defines Nemesis. Join the ranks of passionate music enthusiasts and grab your own Product E today! As a bonus, you'll receive a Nemesis-inspired keychain with your purchase, a tangible symbol of your connection to the dynamic world of Nemesis."
+    "description": "Feel the adrenaline rush of Nemesis' music with Product E, designed to capture the urgency and excitement of their live performances. Nemesis, a band that knows how to bring the heat, inspires this product. For a limited time, we're offering a special discount on Product E. Don't miss your chance to infuse your music with the same intensity that defines Nemesis. Join the ranks of passionate music enthusiasts and grab your own Product E today! As a bonus, you'll receive a Nemesis-inspired keychain with your purchase, a tangible symbol of your connection to the dynamic world of Nemesis.",
+    "event_category": "Rock Concert",
+    "organizer": "Nemesis Productions",
+    "phone": "+1-345-678-9012",
+    "email": "info@nemesisproductions.com"
   },
   {
     "id": 6,
     "name": "Warfaze",
-    "img": "https://i.ibb.co/WfNnTKW/featured-6.jpg",
+    "img": "https://i.ibb.co/XyjmVCX/warfaze.jpg",
     "price": 270.00,
-    "description": "Experience the legendary power of Warfaze with Product F, designed for those who demand the best. Warfaze, known for their explosive performances, has left an indelible mark on the music world. Now, you can channel that same power with Product F. This product is the epitome of music excellence. Don't settle for anything less. Join the elite and experience music like never before with Product F. Elevate your music to legendary status! And as a token of our appreciation for choosing Product F, you'll receive a limited edition Warfaze guitar pick with your purchase."
+    "description": "Experience the legendary power of Warfaze with Product F, designed for those who demand the best. Warfaze, known for their explosive performances, has left an indelible mark on the music world. Now, you can channel that same power with Product F. This product is the epitome of music excellence. Don't settle for anything less. Join the elite and experience music like never before with Product F. Elevate your music to legendary status! And as a token of our appreciation for choosing Product F, you'll receive a limited edition Warfaze guitar pick with your purchase.",
+    "event_category": "Rock Concert",
+    "organizer": "Warfaze Productions",
+    "phone": "+1-678-901-2345",
+    "email": "info@warfazeproductions.com"
   }
 ]

@@ -11,9 +11,12 @@ const Navbar = () => {
             .catch()
     }
     const links = <>
-        <li className="mr-5"><NavLink to='/'>Home</NavLink></li>
-        <li className="mr-5"><NavLink to='/login'>Login</NavLink></li>
-        <li><NavLink to='/register'>Registration</NavLink></li>
+        <li className="mr-5 text-lg"><NavLink to='/'>Home</NavLink></li>
+        <li className="mr-5 text-lg"><NavLink to='/events'>Events</NavLink></li>
+        <li className="mr-5 text-lg"><NavLink to='/tickets'>Tickets</NavLink></li>
+        <li className="mr-5 text-lg"><NavLink to='/about'>About</NavLink></li>
+        <li className="mr-5 text-lg"><NavLink to='/login'>Login</NavLink></li>
+        <li className="mr-5 text-lg"><NavLink to='/register'>Registration</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100">
@@ -26,7 +29,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <p className="text-xl font-semibold">Concerts and music event</p>
+                <p className="text-xl font-bold">Concerts and music events</p>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

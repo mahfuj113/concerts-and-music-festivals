@@ -37,6 +37,7 @@ const Footer = () => {
             </footer>
             <footer className="footer footer-center p-4 bg-base-200 text-base-content">
                 <aside>
+                    <p>Idea acquire from themeforest websites</p>
                     <p>Copyright © 2023 - All right reserved by concerts and music event</p>
                 </aside>
             </footer>

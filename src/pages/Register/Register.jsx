@@ -86,7 +86,7 @@ const Register = () => {
                 </div>
                 <p className="mt-4">Already have an account? <Link to='/login' className="text-[#F75B5F] font-bold">Login</Link></p>
             </form>
-            <div className="md:w-3/4 lg:w-1/2 mx-auto mt-5">
+            <div className="md:w-3/4 lg:w-1/2 mx-auto mt-5 mb-10">
                 <button onClick={handleGoogleLogin} className="btn">Google Login</button>
             </div>
         </div>
