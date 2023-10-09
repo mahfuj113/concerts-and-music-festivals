@@ -3,7 +3,7 @@ const Review = () => {
         <div>
             <h2 className="text-center text-[#594ef3] text-3xl font-bold my-10">Customers Review</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-10">
-                <div className="card card-compact bg-base-100 shadow-xl">
+                <div data-aos='flip-right' className="card card-compact bg-base-100 shadow-xl">
                     <figure><img src="https://i.ibb.co/p0Q1gdM/jane-smith.jpg" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Jane Smith</h2>
@@ -17,7 +17,7 @@ const Review = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact bg-base-100 shadow-xl">
+                <div data-aos='fade-down' className="card card-compact bg-base-100 shadow-xl">
                     <figure><img className="w-full" src="https://i.ibb.co/KjqmfR8/john-doe.jpg" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Alex Rodriguez</h2>
@@ -31,7 +31,7 @@ const Review = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact bg-base-100 shadow-xl">
+                <div data-aos='flip-left' className="card card-compact bg-base-100 shadow-xl">
                     <figure><img className="w-full" src="https://i.ibb.co/Db7tMf5/watson.jpg" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Rachel Thompson</h2>

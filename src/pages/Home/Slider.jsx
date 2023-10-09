@@ -1,6 +1,6 @@
 const Slider = () => {
     return (
-        <div className="carousel w-full">
+        <div data-aos='fade-up' className="carousel w-full">
             <div id="slide1" className="carousel-item relative w-full h-[500px]">
                 <img src='https://i.ibb.co/1RkYTPM/banner1.jpg' className="w-full" />
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

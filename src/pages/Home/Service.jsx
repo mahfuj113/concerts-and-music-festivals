@@ -5,7 +5,7 @@ import {FiDollarSign} from 'react-icons/fi'
 const Service = ({ musician }) => {
     const {id,img,name,price,description} = musician;
     return (
-        <div className="card card-compact bg-base-100 shadow-xl">
+        <div  data-aos='zoom-in' className="card card-compact bg-base-100 shadow-xl">
             <figure className=''><img className='h-[300px] w-full' src={img} alt="Shoes" /></figure>
             <div className="card-body bg-gray-400 rounded-b-lg">
                 <h2 className="card-title">{name}</h2>

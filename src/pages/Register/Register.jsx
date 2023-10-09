@@ -2,10 +2,12 @@ import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import toast from "react-hot-toast";
+import {GrGoogle} from 'react-icons/gr'
 
 const Register = () => {
     const { createUser, handleUpdateProfile,googleLogin } = useContext(AuthContext)
     const navigate = useNavigate()
+    // const location
     const handleRegister = e => {
         e.preventDefault()
         const form = new FormData(e.currentTarget)
@@ -34,6 +36,7 @@ const Register = () => {
                     .then(() => {
                         toast.success('User Created successfully');
                         navigate('/')
+                        window.location.reload()
                     })
 
             })
@@ -45,15 +48,16 @@ const Register = () => {
         googleLogin()
             .then(result => {
                 console.log(result.user);
+                navigate(location.state ? location.state : "/")
             })
             .catch(error => {
                 console.error(error)
             })
     } 
     return (
-        <div>
-            <h1 className="text-3xl my-10 text-center">Register your account</h1>
-            <form onSubmit={handleRegister} className="md:w-3/4 lg:w-1/2 mx-auto">
+        <div className="md:w-1/4  mx-auto bg-blue-500 p-5">
+            <h1 className="text-3xl text-white text-center">Register your account</h1>
+            <form onSubmit={handleRegister}>
                 <div className="form-control">
                     <label className="label">
                         <span className="label-text">Name</span>
@@ -81,13 +85,13 @@ const Register = () => {
                         <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                     </label>
                 </div>
-                <div className="form-control mt-6">
-                    <button className="btn btn-primary">Register</button>
+                <div className="form-control mt-4">
+                    <button className="btn bg-[#F75B5F] hover:bg-[#F75B5F] text-white text-xl">Register</button>
                 </div>
-                <p className="mt-4">Already have an account? <Link to='/login' className="text-[#F75B5F] font-bold">Login</Link></p>
+                <p className="mt-2">Already have an account? <Link to='/login' className="text-[#F75B5F] font-bold">Login</Link></p>
             </form>
-            <div className="md:w-3/4 lg:w-1/2 mx-auto mt-5 mb-10">
-                <button onClick={handleGoogleLogin} className="btn">Google Login</button>
+            <div className="mt-4">
+                <button onClick={handleGoogleLogin} className="btn bg-[#F75B5F] hover:bg-[#F75B5F] text-white"><GrGoogle></GrGoogle>Google Login</button>
             </div>
         </div>
     );

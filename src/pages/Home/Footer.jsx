@@ -3,8 +3,8 @@ import { BsTelephoneFill } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
 const Footer = () => {
     return (
-        <div>
-            <footer className="footer p-10 bg-base-200 text-base-content">
+        <div data-aos='fade-up'>
+            <footer className="footer p-10 bg-base-200 ">
                 <nav>
                     <header className="footer-title">Contact Info</header>
                     <p className="flex items-center gap-2"><FaLocationDot></FaLocationDot>Parbatipur, Dinajpur</p>
@@ -24,7 +24,7 @@ const Footer = () => {
                 </nav>
                 <nav>
                     <header className="footer-title">Newsletter</header>
-                    <fieldset className="form-control w-80">
+                    <div className="w-80">
                         <label className="label">
                             <span className="label-text">Enter your email address</span>
                         </label>
@@ -32,7 +32,7 @@ const Footer = () => {
                             <input type="text" placeholder="username@site.com" className="input input-bordered w-full pr-16" />
                             <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
                         </div>
-                    </fieldset>
+                    </div>
                 </nav>
             </footer>
             <footer className="footer footer-center p-4 bg-base-200 text-base-content">
