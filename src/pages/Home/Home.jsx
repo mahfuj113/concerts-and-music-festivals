@@ -12,7 +12,7 @@ const Home = () => {
         Aos.init({duration: 2000})
     },[])
     return (
-        <div>
+        <div className="p-7 lg:p-0">
             <Slider></Slider>
             <Services></Services>
             <Review></Review>

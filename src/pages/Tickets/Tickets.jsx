@@ -22,8 +22,8 @@ const Tickets = () => {
                 </div>
             </div>
             <div className="card card-compact border">
-                <p className='text-center text-2xl font-medium h-10 my-6'>One-Day</p>
-                <figure className="bg-red-500 hover:bg-black h-28"><h1 className="text-4xl flex items-end font-bold text-white"><FiDollarSign className='text-lg'></FiDollarSign>49.00</h1></figure>
+                <p className='text-center text-2xl font-medium h-10 my-6'>Three-Day</p>
+                <figure className="bg-red-500 hover:bg-black h-28"><h1 className="text-4xl flex items-end font-bold text-white"><FiDollarSign className='text-lg'></FiDollarSign>80.00</h1></figure>
                 <div className="card-body">
                     <ul className='h-20'>
                         <li className='text-base flex items-center'><BsCheckLg className='text-red-600'></BsCheckLg>Ticket for one day</li>
@@ -36,8 +36,8 @@ const Tickets = () => {
                 </div>
             </div>
             <div className="card card-compact border">
-                <p className='text-center text-2xl font-medium h-10 my-6'>One-Day</p>
-                <figure className="bg-red-500 hover:bg-black h-28"><h1 className="text-4xl flex items-end font-bold text-white"><FiDollarSign className='text-lg'></FiDollarSign>49.00</h1></figure>
+                <p className='text-center text-2xl font-medium h-10 my-6'>A Week</p>
+                <figure className="bg-red-500 hover:bg-black h-28"><h1 className="text-4xl flex items-end font-bold text-white"><FiDollarSign className='text-lg'></FiDollarSign>109.00</h1></figure>
                 <div className="card-body">
                     <ul className='h-20'>
                         <li className='text-base flex items-center'><BsCheckLg className='text-red-600'></BsCheckLg>Ticket for one day</li>

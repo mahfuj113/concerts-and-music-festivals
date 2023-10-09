@@ -4,27 +4,27 @@ import { AiOutlineMail } from 'react-icons/ai'
 const Footer = () => {
     return (
         <div data-aos='fade-up'>
-            <footer className="footer p-10 bg-base-200 ">
-                <nav>
+            <footer className="footer p-10 bg-base-200">
+                <div>
                     <header className="footer-title">Contact Info</header>
                     <p className="flex items-center gap-2"><FaLocationDot></FaLocationDot>Parbatipur, Dinajpur</p>
                     <p className="flex items-center gap-2"><BsTelephoneFill></BsTelephoneFill>+88 01797 581507</p>
                     <p className="flex items-center gap-2"><AiOutlineMail></AiOutlineMail>md.mahfujhasan894@gmail.com</p>
-                </nav>
-                <nav>
+                </div>
+                <div>
                     <header className="footer-title">Company</header>
                     <a className="link link-hover">About us</a>
                     <a className="link link-hover">Contact</a>
-                </nav>
-                <nav>
+                </div>
+                <div>
                     <header className="footer-title">Legal</header>
                     <a className="link link-hover">Terms of use</a>
                     <a className="link link-hover">Privacy policy</a>
                     <a className="link link-hover">Cookie policy</a>
-                </nav>
-                <nav>
+                </div>
+                <div>
                     <header className="footer-title">Newsletter</header>
-                    <div className="w-80">
+                    <div className="lg:w-80">
                         <label className="label">
                             <span className="label-text">Enter your email address</span>
                         </label>
@@ -33,7 +33,7 @@ const Footer = () => {
                             <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
                         </div>
                     </div>
-                </nav>
+                </div>
             </footer>
             <footer className="footer footer-center p-4 bg-base-200 text-base-content">
                 <aside>

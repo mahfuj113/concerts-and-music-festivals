@@ -7,7 +7,6 @@ import {GrGoogle} from 'react-icons/gr'
 const Register = () => {
     const { createUser, handleUpdateProfile,googleLogin } = useContext(AuthContext)
     const navigate = useNavigate()
-    // const location
     const handleRegister = e => {
         e.preventDefault()
         const form = new FormData(e.currentTarget)
@@ -55,7 +54,7 @@ const Register = () => {
             })
     } 
     return (
-        <div className="md:w-1/4  mx-auto bg-blue-500 p-5">
+        <div className="md:w-2/4 lg:w-1/4  mx-auto bg-blue-500 p-5">
             <h1 className="text-3xl text-white text-center">Register your account</h1>
             <form onSubmit={handleRegister}>
                 <div className="form-control">
